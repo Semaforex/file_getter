@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en" >
+    <head>
+    
+        <title>
+Zadanie Zliczacz liter - Problem statement
+ - XIV LO SIO2</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+
+        
+        <script type="text/javascript" src="/static/CACHE/js/6fe9904caefe.js"></script>
+
+        
+            <link rel="stylesheet" href="/static/CACHE/css/36a947c90c7a.css" type="text/css" />
+        
+
+        
+        
+
+        
+    
+    </head>
+    <body class="body-with-menu">
+        <div class="wrapper">
+            
+            <header id="oioioi-navbar" class="oioioi-navbar hidden-print
+            
+             ">
+
+                
+<a class="oioioi-navbar__brand" href="/">XIV LO SIO2</a>
+<div class="oioioi-navbar__menu dropdown">
+    
+
+<a href="#" type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+</a>
+<ul class="dropdown-menu">
+    
+
+    
+        
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/dashboard/" >
+                    
+                    Dashboard
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/p/" >
+                    
+                    Problems
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/r/" >
+                    
+                    Rankings
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/files/" >
+                    
+                    Files
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/submit/" >
+                    
+                    Submit
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/submissions/" >
+                    
+                    My submissions
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/questions/" >
+                    
+                    Questions and news
+                </a>
+            </li>
+        
+
+    
+
+    
+</ul>
+
+</div>
+
+
+                <div class="oioioi-navbar__contests">
+                    
+
+
+    
+        <div class="dropdown ">
+            <a href="#" class="contest-picker dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <div class="contest-name">Matex_k19_a4_JS</div> <div class="caret"></div>
+            </a>
+            <ul class="dropdown-menu">
+                
+                    
+                        <li><a href="/c/matex_k19_a4_js/">Matex_k19_a4_JS</a></li>
+                    
+                        <li><a href="/c/kolko-informatyczne-archiwum/">Kółko Informatyczne – archiwum</a></li>
+                    
+                        <li><a href="/c/maly-preoi-202122/">Smol PREOI 2021</a></li>
+                    
+                        <li><a href="/c/algorytmika-2021-2022/">Algorytmika (2021-2022)</a></li>
+                    
+                    <li><a href="/c/matex_k19_a4_js/contest/">Other...</a></li>
+                
+
+                
+
+                
+            </ul>
+        </div>
+    
+
+
+                </div>
+
+                <div class="oioioi-navbar__extra">
+                    
+                    
+                </div>
+
+                <div class="oioioi-navbar__flex"></div>
+
+                <div class="oioioi-navbar__countdown">
+                    <div class="countdown-time" id="countdown-time"></div>
+<div id="countdown-progress" class="progress countdown-progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <span class="sr-only"></span>
+    </div>
+</div>
+                </div>
+
+                <div class="oioioi-navbar__flex"></div>
+
+                <div class="oioioi-navbar__extra">
+                    
+                    
+                    
+                        <time class="navbar-clock" id="clock">00:46:38</time>
+                    
+                </div>
+
+
+                <div class="oioioi-navbar__user-su">
+                    
+                        
+
+<div>
+    
+</div>
+
+                    
+                </div>
+                <div class="oioioi-navbar__user">
+                    
+                        
+
+
+    <div class="dropdown">
+        <a href="#" id="navbar-username" class="dropdown-toggle "
+           data-toggle="dropdown" role="button" aria-expanded="false">
+            
+            
+            
+                <span class="glyphicon glyphicon-user"></span>
+            
+            <strong class="username" id="username">Michal_par</strong>
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu pull-right">
+            
+            
+                <li><a href="/archive/" >Archive</a></li>
+            
+                <li><a href="/c/matex_k19_a4_js/edit_profile/" >Edit profile</a></li>
+            
+                <li><a href="/c/matex_k19_a4_js/delete_account/" >Delete account</a></li>
+            
+                <li><a href="/password/change/" >Change password</a></li>
+            
+                <li><a href="#" data-post-url="/c/matex_k19_a4_js/logout/">Log out</a></li>
+            
+            
+
+    <li class="divider" role="separator"></li>
+    
+        <li>
+            <a href="#" class="lang-select" lang="en">
+                <img title="English" src="/static/images/flags/en.png"/>
+                English
+            </a>
+        </li>
+    
+        <li>
+            <a href="#" class="lang-select" lang="pl">
+                <img title="polski" src="/static/images/flags/pl.png"/>
+                polski
+            </a>
+        </li>
+    
+
+
+
+            
+
+
+
+            
+
+
+
+
+
+
+
+
+    
+
+
+
+
+        </ul>
+    </div>
+
+
+                    
+                </div>
+            </header>
+            <div class="container-fluid body">
+                
+                
+                
+<div class="row">
+    <nav id="menu" class="col-md-3 col-lg-2 hidden-sm hidden-xs">
+        
+            
+
+
+
+<div class="panel-group" id="menu-accordion" role="tablist" aria-multiselectable="true">
+    
+        
+        <div class="panel panel-default">
+            <div class="panel-heading">Menu</div>
+            <div class="list-group">
+                
+                    <a href="/c/matex_k19_a4_js/dashboard/" id=""  class="list-group-item ">
+                        
+                        Dashboard
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/p/" id=""  class="list-group-item ">
+                        
+                        Problems
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/r/" id=""  class="list-group-item ">
+                        
+                        Rankings
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/files/" id=""  class="list-group-item ">
+                        
+                        Files
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/submit/" id=""  class="list-group-item ">
+                        
+                        Submit
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/submissions/" id=""  class="list-group-item ">
+                        
+                        My submissions
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/questions/" id=""  class="list-group-item ">
+                        
+                        Questions and news
+                    </a>
+                
+            </div>
+        </div>
+    
+    
+</div>
+        
+    </nav>
+
+    <section class="col-md-9 col-lg-10 main-content">
+        
+            
+    
+
+
+        
+        
+<div>
+<h1>Zliczacz liter</h1>
+<h3>Limit pamięci: 32 MB</h3>
+<p>
+Koło Młodych Miłośników Łamania Szyfrów pracuje nad oprogramowaniem służącym do odszyfrowania
+pewnego starożytnego manuskryptu. Jądrem systemu zostanie samouczący się analizator tekstu, a jego
+pierwszym modułem "zliczacz liter", którego opracowanie powierzono Tobie.
+</p>
+<h2>Zadanie</h2>
+<p>
+  Opracuj program, który:
+  <ul>
+<li>
+  wczyta ze standardowego wejścia tekst do analizy,
+  </li>
+<li>
+  dla każdej litery obliczy liczbę jej wystąpień w tekście,
+  </li>
+<li>
+  wypisze wynik na standardowe wyjście.
+  </li>
+</ul>
+</p>
+<h2>Wejście</h2>
+<p>W pierwszym wierszu wejścia znajduje się liczba <span class="texmath"><img src="images/OIG1/zli-tex.1.png"/></span>, oznaczająca liczbę wierszy tekstu do analizy 
+(<span class="texmath"><img src="images/OIG1/zli-tex.2.png"/></span>).
+W każdym z następujących <span class="texmath"><img src="images/OIG1/zli-tex.3.png"/></span> znajduje się ciąg złożony z maksymalnie <span class="texmath"><img src="images/OIG1/zli-tex.4.png"/></span> znaków spośród małych i wielkich
+liter alfabetu łacińskiego ('a'..'z', 'A'..'Z') oraz spacji.
+  
+  </p>
+<h2>Wyjście</h2>
+<p>W kolejnych wierszach należy wypisywać litery od 'a' do 'z' i od 'A' do 'Z' (w tej kolejności), pojedyncza˛
+spację oraz liczbę oznaczającą ilość wystąpień tej litery w analizowanym tekście. Litery nie występujące
+w tekście należy pominąć.  </p>
+<h2>Przykład</h2>
+<p>Dla danych wejściowych:</p><pre>2
+ala ma kota
+Ola ma psa</pre>
+<p>poprawną odpowiedzią jest:</p><pre>a 7
+k 1
+l 2
+m 2
+o 1
+p 1
+s 1
+t 1
+O 1</pre>
+</div>
+
+    </section>
+</div>
+
+            </div>
+
+            
+                
+<footer class="footer container-fluid text-center text-muted">
+   <div style="width:100%" class="row">
+      <div class="pull-left">
+      <a href="/docs/regulamin">Regulamin</a>
+      <span style="padding:0.5em">|</span>
+      <a href="/docs/polityka_prywatnosci">Polityka prywatności</a>
+      </div>
+     <small class="pull-right">
+      
+       Powered by <a href="https://www.github.com/sio2project/oioioi">OIOIOI</a>,
+       from the <a href="http://sio2project.mimuw.edu.pl">SIO2 Project</a>.
+      
+     </small>
+  
+
+
+<div id="drop-zone-area" class="drop-zone">
+    <form id="upload" name="uploadform"
+          action="/c/matex_k19_a4_js/submit/" method="POST"
+          enctype="multipart/form-data">
+        <input type='hidden' name='csrfmiddlewaretoken' value='4B4sEreNmqxHzJOr2CW5OwwllXCZaTgI' />
+        <input type="hidden" id="dropped-solution" name="dropped_solution"/>
+        <input type="hidden" id="dropped-solution-name" name="dropped_solution_name"/>
+    </form>
+    <div id="drop-zone-displayed-content" class="drop-zone__message"></div>
+</div>
+
+<div id="outdated-model" tabindex="-1" class="modal fade" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">This page may be not up-to-date</h4>
+      </div>
+      <div class="modal-body">
+        
+            <p>This page may present not up-to-date content or be misleading in other way. Refreshing it is strongly recommended.</p>
+            <p>To close this popup, click <strong>Dismiss</strong> button. This will suppress further notifications.</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Dismiss</button>
+        <button type="button" class="btn btn-primary" onclick="location.reload(true);" aria-hidden="true">Refresh</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    $(function() {
+        $(window).trigger('initialStatus', JSON.parse('{\u0022is_admin_time_set\u0022: false, \u0022is_under_su\u0022: false, \u0022is_time_admin\u0022: false, \u0022sync_time\u0022: 300000, \u0022round_end_date\u0022: 0, \u0022status_url\u0022: \u0022/c/matex_k19_a4_js/status/\u0022, \u0022is_real_superuser\u0022: false, \u0022is_superuser\u0022: false, \u0022contest_id\u0022: \u0022matex_k19_a4_js\u0022, \u0022user\u0022: \u0022Michal_par\u0022, \u0022time\u0022: 1733787998.0, \u0022real_user\u0022: \u0022Michal_par\u0022, \u0022round_start_date\u0022: 0, \u0022is_contest_admin\u0022: false}'));
+    });
+</script>
+
+</footer>
+
+            
+        </div>
+        
+            <script type="text/javascript">const oioioi_base_url = "/";</script>
+            <script type="text/javascript" src="/static/CACHE/js/1752a0856f60.js"></script>
+            <script type="text/javascript" src="/jsi18n/"></script>
+        
+    </body>
+</html>

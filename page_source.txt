@@ -1,0 +1,4016 @@
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="pl" >
+    <head>
+    
+        <title>Zadania - XIV LO SIO2</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+
+        
+        <script type="text/javascript" src="/static/CACHE/js/6fe9904caefe.js"></script>
+
+        
+
+            <link rel="stylesheet" href="/static/CACHE/css/36a947c90c7a.css" type="text/css" />
+        
+<style>
+    .limits
+    {
+    }
+</style>
+
+
+        
+        
+
+        
+    
+    </head>
+    <body class="body-with-menu">
+        <div class="wrapper">
+            
+            <header id="oioioi-navbar" class="oioioi-navbar hidden-print
+            
+             ">
+
+                
+<a class="oioioi-navbar__brand" href="/">XIV LO SIO2</a>
+<div class="oioioi-navbar__menu dropdown">
+    
+
+<a href="#" type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+</a>
+<ul class="dropdown-menu">
+    
+
+    
+        
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/dashboard/" >
+                    
+                    Start
+                </a>
+            </li>
+        
+            <li id="" class="active">
+                <a href="/c/matex_k19_a4_js/p/" >
+                    
+                    Zadania
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/r/" >
+                    
+                    Rankingi
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/files/" >
+                    
+                    Pliki
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/submit/" >
+                    
+                    Wyślij
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/submissions/" >
+                    
+                    Moje zgłoszenia
+                </a>
+            </li>
+        
+            <li id="" class="">
+                <a href="/c/matex_k19_a4_js/questions/" >
+                    
+                    Pytania i ogłoszenia
+                </a>
+            </li>
+        
+
+    
+
+    
+</ul>
+
+</div>
+
+
+                <div class="oioioi-navbar__contests">
+                    
+
+
+    
+        <div class="dropdown ">
+            <a href="#" class="contest-picker dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <div class="contest-name">Matex_k19_a4_JS</div> <div class="caret"></div>
+            </a>
+            <ul class="dropdown-menu">
+                
+                    
+                        <li><a href="/c/matex_k19_a4_js/">Matex_k19_a4_JS</a></li>
+                    
+                        <li><a href="/c/algorytmika-2021-2022/">Algorytmika (2021-2022)</a></li>
+                    
+                        <li><a href="/c/maly-preoi-202122/">Smol PREOI 2021</a></li>
+                    
+                        <li><a href="/c/podstawy-algorytmiki-20192020/">Podstawy algorytmiki 2019/20</a></li>
+                    
+                    <li><a href="/c/matex_k19_a4_js/contest/">Inny…</a></li>
+                
+
+                
+
+                
+            </ul>
+        </div>
+    
+
+
+                </div>
+
+                <div class="oioioi-navbar__extra">
+                    
+                    
+                </div>
+
+                <div class="oioioi-navbar__flex"></div>
+
+                <div class="oioioi-navbar__countdown">
+                    <div class="countdown-time" id="countdown-time"></div>
+<div id="countdown-progress" class="progress countdown-progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <span class="sr-only"></span>
+    </div>
+</div>
+                </div>
+
+                <div class="oioioi-navbar__flex"></div>
+
+                <div class="oioioi-navbar__extra">
+                    
+                    
+                    
+                        <time class="navbar-clock" id="clock">14:55:15</time>
+                    
+                </div>
+
+
+                <div class="oioioi-navbar__user-su">
+                    
+                        
+
+<div>
+    
+</div>
+
+                    
+                </div>
+                <div class="oioioi-navbar__user">
+                    
+                        
+
+
+    <div class="dropdown">
+        <a href="#" id="navbar-username" class="dropdown-toggle "
+           data-toggle="dropdown" role="button" aria-expanded="false">
+            
+            
+            
+                <span class="glyphicon glyphicon-user"></span>
+            
+            <strong class="username" id="username">Michal_par</strong>
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu pull-right">
+            
+            
+                <li><a href="/archive/" >Archiwum</a></li>
+            
+                <li><a href="/c/matex_k19_a4_js/edit_profile/" >Edycja profilu</a></li>
+            
+                <li><a href="/c/matex_k19_a4_js/delete_account/" >Usuń konto</a></li>
+            
+                <li><a href="/password/change/" >Zmiana hasła</a></li>
+            
+                <li><a href="#" data-post-url="/c/matex_k19_a4_js/logout/">Wyloguj</a></li>
+            
+            
+
+    <li class="divider" role="separator"></li>
+    
+        <li>
+            <a href="#" class="lang-select" lang="en">
+                <img title="English" src="/static/images/flags/en.png"/>
+                English
+            </a>
+        </li>
+    
+        <li>
+            <a href="#" class="lang-select" lang="pl">
+                <img title="polski" src="/static/images/flags/pl.png"/>
+                polski
+            </a>
+        </li>
+    
+
+
+
+            
+
+
+
+            
+
+
+
+
+
+
+
+
+    
+
+
+
+
+        </ul>
+    </div>
+
+
+                    
+                </div>
+            </header>
+            <div class="container-fluid body">
+                
+                
+                
+<div class="row">
+    <nav id="menu" class="col-md-3 col-lg-2 hidden-sm hidden-xs">
+        
+            
+
+
+
+<div class="panel-group" id="menu-accordion" role="tablist" aria-multiselectable="true">
+    
+        
+        <div class="panel panel-default">
+            <div class="panel-heading">Menu</div>
+            <div class="list-group">
+                
+                    <a href="/c/matex_k19_a4_js/dashboard/" id=""  class="list-group-item ">
+                        
+                        Start
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/p/" id=""  class="list-group-item active">
+                        
+                        Zadania
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/r/" id=""  class="list-group-item ">
+                        
+                        Rankingi
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/files/" id=""  class="list-group-item ">
+                        
+                        Pliki
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/submit/" id=""  class="list-group-item ">
+                        
+                        Wyślij
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/submissions/" id=""  class="list-group-item ">
+                        
+                        Moje zgłoszenia
+                    </a>
+                
+                    <a href="/c/matex_k19_a4_js/questions/" id=""  class="list-group-item ">
+                        
+                        Pytania i ogłoszenia
+                    </a>
+                
+            </div>
+        </div>
+    
+    
+</div>
+        
+    </nav>
+
+    <section class="col-md-9 col-lg-10 main-content">
+        
+            
+    
+
+
+        
+        
+<h1>Zadania</h1>
+
+    <div class="table-responsive">
+        
+        
+
+
+<div class="text-center">
+    <ul class="pagination">
+        
+            <li class="disabled"><a href="#">«</a></li>
+        
+        
+            
+            <li class="active">
+                <a href="?page=1">1</a>
+            </li>
+            
+        
+            
+            <li class="">
+                <a href="?page=2">2</a>
+            </li>
+            
+        
+        
+            <li><a href="?page=2">»</a></li>
+        
+    </ul>
+</div>
+
+
+
+        <table class="table table-striped table--narrow">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Nazwa</th>
+                    <th></th>
+                    <th style="text-align:center">Zgłoszenia</th>
+                    <th class="text-right">Wynik</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Strat do 23.10.2019</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>bab</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/bab/">Babcia</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6850">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>cza</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cza/">Zadanie Czas</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6849">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>cze</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cze/">Zadanie Czekoladki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6848">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>kol</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kol/">Zadanie Koło</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6855">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>nao</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/nao/">Zadanie Na odwrót</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6856">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sch</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sch/">Schronisko</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6847">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sum</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sum/">Zadanie Suma</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6846">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Instrukcja warunkowa do 23.10.2019</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>abs</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/abs/">Zadanie Watrosc bezwzgledna</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6854">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>cwi</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cwi/">Zadanie Ćwiartka układu współrzędnych</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6858">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>data</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/data/">Data</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6852">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>prz</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/prz/">Zadanie Przestępność</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6851">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>tyd</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/tyd/">Tydzień</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_6857">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Petle do 13-11-2019</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>abs1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/abs1/">Zadanie Maksymalna różnica</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7210">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>for2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/for2/">Suma cyfr</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7209">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>hgo</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/hgo/">Hipoteza Goldbacha</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7208">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>kas</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kas/">Kasztany</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7207">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>lat</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/lat/">Przewracające się latarnie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7206">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Tablice na 21-11-2019</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>mod</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/mod/">Modulo</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7317">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>nap</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/nap/">Zadanie Na przemian</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7316">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>nsu</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/nsu/">Największa suma</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7318">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Tablice *</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>apt</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/apt/">Zadanie Apteka</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7319">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>ban</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ban/">Zadanie Bankiet</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7320">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>gil</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/gil/">Zadanie Gildie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7321">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>poc</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/poc/">Zadanie Pocztówka</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7322">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Znaki i teksty na 28-11-2019</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>kot</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kot/">Zadanie Kot na klawiaturze</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7430">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>plu</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/plu/">Zadanie Plum</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7436">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sam</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sam/">Zadanie Samogłoska</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7432">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Znaki i teksty 2 na 12.12</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>q01</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q01/">q01</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7590">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q02</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q02/">q02</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7591">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q03</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q03/">q03</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7592">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q04</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q04/">q04</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7593">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q05</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q05/">q05</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7594">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q06</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q06/">q06</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7595">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q07</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q07/">q07</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7596">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q08</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q08/">q08</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7597">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q09</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q09/">q09</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7598">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q10</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q10/">q10</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7599">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q12</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q12/">q12</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7600">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>q13</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/q13/">q13</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7601">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Znaki i teksty *</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>cyk</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cyk/">Cyklicznie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7607">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>mod1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/mod1/">Zadanie Modyfikowanie napisu</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7602">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>np1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/np1/">Zadanie Najdłuższe podsłowo 1</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7605">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sta</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sta/">Zadanie Statystyki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7608">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>zli</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/zli/">Zadanie Zliczacz liter</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7604">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Prezent na Święta</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>dos</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/dos/">Liczby doskonałe</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8069">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>dyz</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/dyz/">Dyzio</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8070">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>dzielniki2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/dzielniki2/">dzielniki2</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8071">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>kns</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kns/">Zadanie (K,N)-Skoczek [B]</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8067">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-warning"> 10</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>nwd</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/nwd/">NWD</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8072">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>szy</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/szy/">Zadanie Szyfr Cezara</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7778">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>ula</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ula/">Ułamki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8073">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Sito i sumy prefiksowe  na 6.02.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>omj</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/omj/">Zadanie OMJ</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8271">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sum1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sum1/">Sumy</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8272">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Anagramy na 27.02.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>ana</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ana/">anagramy</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_7606">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Szybkie potęgowanie -  na 27.02.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>pot</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/pot/">Potęgowanie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8623">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Szyfr Cezara i Szyfr Vigenère&#39;a na 5.03.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>szy2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/szy2/">Zadanie Szyfr</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8719">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>vige</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/vige/">Szyfr Vigenère&#39;a -- szyfrowanie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_8720">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Zadnia programistyczne</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>bal</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/bal/">Balon</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9322">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-warning"> 90</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>ban1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ban1/">Zadanie Bankiet</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9025">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>mury</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/mury/">Mury</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9211">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>not</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/not/">Notowania akcji</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9024">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>pos</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/pos/">Posiadłość</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9023">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sam1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sam1/">Zadanie Samochody</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9161">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>spa</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/spa/">Spacery po drzewie binarnym</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9067">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>zar</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/zar/">Żarówki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_9199">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>2.09.2020 do 9.09.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>e</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/e/">Zadanie Trikontenerowiec</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10892">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Sort z STL i własna funkcja porównujaca na 16.09.2020</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>med</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/med/">Zadanie Medal</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10950">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sor</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sor/">Zadanie Sortowanie biżuterii</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10949">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>tel</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/tel/">Telefony</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10948">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>uni</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/uni/">Zadanie Unikaty</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10947">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>wag</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/wag/">Zadanie Waga binarna</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_10951">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>16.09.2020 nwd. siot, l.pierwsze</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>czy</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/czy/">Faktoryzacja wielu liczb</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11021">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-warning"> 50</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>wes</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/wes/">Zadanie Wesoła małpka</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11016">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>23.09.2020 - uzycie sort (zachłanne)</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>zad</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/zad/">Przedziały</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11206">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>23.09 liczby fibonacciego</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>fibonacci</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/fibonacci/">Liczby Fibonacciego</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11209">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>znowu2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/znowu2/">Liczby Fibonacciego też dla starszych</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11207">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Czy umiesz dodawać :)?</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>dod</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/dod/">Dodawanie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11387">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>dod1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/dod1/">Dodawanie 2</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11388">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sum2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sum2/">Zadanie Sumujący Jaś</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11389">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Wyszukiwanie binarne</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>kal</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kal/">Zadanie Kalendarze</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11555">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-warning"> 24</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>kra</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kra/">Zadanie Krążki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11556">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>tes</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/tes/">Zadanie Test na inteligencję</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11557">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>wie</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/wie/">Zadanie Wieża</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11558">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>wor</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/wor/">Worek</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_11559">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Gąsienica</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>bie</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/bie/">Zadanie Bierki</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12120">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>gas</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/gas/">Gąsienica Marianna</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12119">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>tar</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/tar/">Zadanie Tarasy</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12118">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-warning"> 50</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Zachłany/dynamiki - wydawanie reszty</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>ban2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ban2/">Zadanie Banknoty</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12234">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>cze1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cze1/">Zadanie Czekolada</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12233">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>res</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/res/">Wydawanie reszty</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12232">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>ska</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ska/">Skąpy bankomat</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12235">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Dynamiki - problem plecakowy</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>cuk</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/cuk/">Cukiernia</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12386">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>ple</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/ple/">Problem plecakowy</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12387">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>T[][] -</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>kla</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/kla/">Zadanie Klasy</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12428">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Rekurencja</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>inwersje2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/inwersje2/">Inwersje kontraatakują</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12825">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>sor1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/sor1/">Sortowanie</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12824">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                            <tr class="problemlist-subheader">
+                                <td colspan="5">
+                                    <strong>Struktury danych cz1</strong>
+                                    
+                                </td>
+                            </tr>
+                        
+                    
+                    <tr>
+                        <td>onp</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/onp/">Odwrotna Notacja Polska</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12990">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>vec</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/vec/">Vector</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12989">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>zad1</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/zad1/">Stos</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12988">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+
+                    
+                        
+                    
+                    <tr>
+                        <td>zad2</td>
+                        <td>
+                            
+                                
+                                <a href="/c/matex_k19_a4_js/p/zad2/">Kolejka</a>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        
+    <td style="text-align:center">
+        <div id="limits_12992">
+        </div>
+    </td>
+
+                        <td class="text-right">
+                            
+                                
+                                    <div class="label label-success"> 100</div>
+                                
+                            
+                        </td>
+                    </tr>
+
+                
+            </tbody>
+        </table>
+        
+
+
+<div class="text-center">
+    <ul class="pagination">
+        
+            <li class="disabled"><a href="#">«</a></li>
+        
+        
+            
+            <li class="active">
+                <a href="?page=1">1</a>
+            </li>
+            
+        
+            
+            <li class="">
+                <a href="?page=2">2</a>
+            </li>
+            
+        
+        
+            <li><a href="?page=2">»</a></li>
+        
+    </ul>
+</div>
+
+
+
+    </div>
+
+
+    </section>
+</div>
+
+            </div>
+
+            
+                
+<footer class="footer container-fluid text-center text-muted">
+   <div style="width:100%" class="row">
+      <div class="pull-left">
+      <a href="/docs/regulamin">Regulamin</a>
+      <span style="padding:0.5em">|</span>
+      <a href="/docs/polityka_prywatnosci">Polityka prywatności</a>
+      </div>
+     <small class="pull-right">
+      
+       Powered by <a href="https://www.github.com/sio2project/oioioi">OIOIOI</a>,
+       from the <a href="http://sio2project.mimuw.edu.pl">SIO2 Project</a>.
+      
+     </small>
+  
+
+
+<div id="drop-zone-area" class="drop-zone">
+    <form id="upload" name="uploadform"
+          action="/c/matex_k19_a4_js/submit/" method="POST"
+          enctype="multipart/form-data">
+        <input type='hidden' name='csrfmiddlewaretoken' value='gH6beuXhCVoTA9XlkQdXCJKorzL68Wxd' />
+        <input type="hidden" id="dropped-solution" name="dropped_solution"/>
+        <input type="hidden" id="dropped-solution-name" name="dropped_solution_name"/>
+    </form>
+    <div id="drop-zone-displayed-content" class="drop-zone__message"></div>
+</div>
+
+<div id="outdated-model" tabindex="-1" class="modal fade" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Ta strona może zawierać nieaktualną treść</h4>
+      </div>
+      <div class="modal-body">
+        
+            <p>Ta strona może prezentować nieaktualną, bądź mylącą w inny sposób, treść. Zaleca się jej odświeżenie.</p>
+            <p>Jeśli <strong>Zamkniesz</strong> to okienko, nie pojawi się ponownie przy kolejnych zmianach.</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+        <button type="button" class="btn btn-primary" onclick="location.reload(true);" aria-hidden="true">Odśwież</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    $(function() {
+        $(window).trigger('initialStatus', JSON.parse('{\u0022is_admin_time_set\u0022: false, \u0022is_under_su\u0022: false, \u0022is_time_admin\u0022: false, \u0022sync_time\u0022: 300000, \u0022round_end_date\u0022: 0, \u0022status_url\u0022: \u0022/c/matex_k19_a4_js/status/\u0022, \u0022is_real_superuser\u0022: false, \u0022is_superuser\u0022: false, \u0022contest_id\u0022: \u0022matex_k19_a4_js\u0022, \u0022user\u0022: \u0022Michal_par\u0022, \u0022time\u0022: 1733406916.0, \u0022real_user\u0022: \u0022Michal_par\u0022, \u0022round_start_date\u0022: 0, \u0022is_contest_admin\u0022: false}'));
+    });
+</script>
+
+</footer>
+
+            
+        </div>
+        
+
+            <script type="text/javascript">const oioioi_base_url = "/";</script>
+            <script type="text/javascript" src="/static/CACHE/js/1752a0856f60.js"></script>
+            <script type="text/javascript" src="/jsi18n/"></script>
+        
+<script type="text/javascript">
+$(document).ready(function(){
+    
+        $("#limits_6850").load("/c/matex_k19_a4_js/limits/6850");
+    
+        $("#limits_6849").load("/c/matex_k19_a4_js/limits/6849");
+    
+        $("#limits_6848").load("/c/matex_k19_a4_js/limits/6848");
+    
+        $("#limits_6855").load("/c/matex_k19_a4_js/limits/6855");
+    
+        $("#limits_6856").load("/c/matex_k19_a4_js/limits/6856");
+    
+        $("#limits_6847").load("/c/matex_k19_a4_js/limits/6847");
+    
+        $("#limits_6846").load("/c/matex_k19_a4_js/limits/6846");
+    
+        $("#limits_6854").load("/c/matex_k19_a4_js/limits/6854");
+    
+        $("#limits_6858").load("/c/matex_k19_a4_js/limits/6858");
+    
+        $("#limits_6852").load("/c/matex_k19_a4_js/limits/6852");
+    
+        $("#limits_6851").load("/c/matex_k19_a4_js/limits/6851");
+    
+        $("#limits_6857").load("/c/matex_k19_a4_js/limits/6857");
+    
+        $("#limits_7210").load("/c/matex_k19_a4_js/limits/7210");
+    
+        $("#limits_7209").load("/c/matex_k19_a4_js/limits/7209");
+    
+        $("#limits_7208").load("/c/matex_k19_a4_js/limits/7208");
+    
+        $("#limits_7207").load("/c/matex_k19_a4_js/limits/7207");
+    
+        $("#limits_7206").load("/c/matex_k19_a4_js/limits/7206");
+    
+        $("#limits_7317").load("/c/matex_k19_a4_js/limits/7317");
+    
+        $("#limits_7316").load("/c/matex_k19_a4_js/limits/7316");
+    
+        $("#limits_7318").load("/c/matex_k19_a4_js/limits/7318");
+    
+        $("#limits_7319").load("/c/matex_k19_a4_js/limits/7319");
+    
+        $("#limits_7320").load("/c/matex_k19_a4_js/limits/7320");
+    
+        $("#limits_7321").load("/c/matex_k19_a4_js/limits/7321");
+    
+        $("#limits_7322").load("/c/matex_k19_a4_js/limits/7322");
+    
+        $("#limits_7430").load("/c/matex_k19_a4_js/limits/7430");
+    
+        $("#limits_7436").load("/c/matex_k19_a4_js/limits/7436");
+    
+        $("#limits_7432").load("/c/matex_k19_a4_js/limits/7432");
+    
+        $("#limits_7590").load("/c/matex_k19_a4_js/limits/7590");
+    
+        $("#limits_7591").load("/c/matex_k19_a4_js/limits/7591");
+    
+        $("#limits_7592").load("/c/matex_k19_a4_js/limits/7592");
+    
+        $("#limits_7593").load("/c/matex_k19_a4_js/limits/7593");
+    
+        $("#limits_7594").load("/c/matex_k19_a4_js/limits/7594");
+    
+        $("#limits_7595").load("/c/matex_k19_a4_js/limits/7595");
+    
+        $("#limits_7596").load("/c/matex_k19_a4_js/limits/7596");
+    
+        $("#limits_7597").load("/c/matex_k19_a4_js/limits/7597");
+    
+        $("#limits_7598").load("/c/matex_k19_a4_js/limits/7598");
+    
+        $("#limits_7599").load("/c/matex_k19_a4_js/limits/7599");
+    
+        $("#limits_7600").load("/c/matex_k19_a4_js/limits/7600");
+    
+        $("#limits_7601").load("/c/matex_k19_a4_js/limits/7601");
+    
+        $("#limits_7607").load("/c/matex_k19_a4_js/limits/7607");
+    
+        $("#limits_7602").load("/c/matex_k19_a4_js/limits/7602");
+    
+        $("#limits_7605").load("/c/matex_k19_a4_js/limits/7605");
+    
+        $("#limits_7608").load("/c/matex_k19_a4_js/limits/7608");
+    
+        $("#limits_7604").load("/c/matex_k19_a4_js/limits/7604");
+    
+        $("#limits_8069").load("/c/matex_k19_a4_js/limits/8069");
+    
+        $("#limits_8070").load("/c/matex_k19_a4_js/limits/8070");
+    
+        $("#limits_8071").load("/c/matex_k19_a4_js/limits/8071");
+    
+        $("#limits_8067").load("/c/matex_k19_a4_js/limits/8067");
+    
+        $("#limits_8072").load("/c/matex_k19_a4_js/limits/8072");
+    
+        $("#limits_7778").load("/c/matex_k19_a4_js/limits/7778");
+    
+        $("#limits_8073").load("/c/matex_k19_a4_js/limits/8073");
+    
+        $("#limits_8271").load("/c/matex_k19_a4_js/limits/8271");
+    
+        $("#limits_8272").load("/c/matex_k19_a4_js/limits/8272");
+    
+        $("#limits_7606").load("/c/matex_k19_a4_js/limits/7606");
+    
+        $("#limits_8623").load("/c/matex_k19_a4_js/limits/8623");
+    
+        $("#limits_8719").load("/c/matex_k19_a4_js/limits/8719");
+    
+        $("#limits_8720").load("/c/matex_k19_a4_js/limits/8720");
+    
+        $("#limits_9322").load("/c/matex_k19_a4_js/limits/9322");
+    
+        $("#limits_9025").load("/c/matex_k19_a4_js/limits/9025");
+    
+        $("#limits_9211").load("/c/matex_k19_a4_js/limits/9211");
+    
+        $("#limits_9024").load("/c/matex_k19_a4_js/limits/9024");
+    
+        $("#limits_9023").load("/c/matex_k19_a4_js/limits/9023");
+    
+        $("#limits_9161").load("/c/matex_k19_a4_js/limits/9161");
+    
+        $("#limits_9067").load("/c/matex_k19_a4_js/limits/9067");
+    
+        $("#limits_9199").load("/c/matex_k19_a4_js/limits/9199");
+    
+        $("#limits_10892").load("/c/matex_k19_a4_js/limits/10892");
+    
+        $("#limits_10950").load("/c/matex_k19_a4_js/limits/10950");
+    
+        $("#limits_10949").load("/c/matex_k19_a4_js/limits/10949");
+    
+        $("#limits_10948").load("/c/matex_k19_a4_js/limits/10948");
+    
+        $("#limits_10947").load("/c/matex_k19_a4_js/limits/10947");
+    
+        $("#limits_10951").load("/c/matex_k19_a4_js/limits/10951");
+    
+        $("#limits_11021").load("/c/matex_k19_a4_js/limits/11021");
+    
+        $("#limits_11016").load("/c/matex_k19_a4_js/limits/11016");
+    
+        $("#limits_11206").load("/c/matex_k19_a4_js/limits/11206");
+    
+        $("#limits_11209").load("/c/matex_k19_a4_js/limits/11209");
+    
+        $("#limits_11207").load("/c/matex_k19_a4_js/limits/11207");
+    
+        $("#limits_11387").load("/c/matex_k19_a4_js/limits/11387");
+    
+        $("#limits_11388").load("/c/matex_k19_a4_js/limits/11388");
+    
+        $("#limits_11389").load("/c/matex_k19_a4_js/limits/11389");
+    
+        $("#limits_11555").load("/c/matex_k19_a4_js/limits/11555");
+    
+        $("#limits_11556").load("/c/matex_k19_a4_js/limits/11556");
+    
+        $("#limits_11557").load("/c/matex_k19_a4_js/limits/11557");
+    
+        $("#limits_11558").load("/c/matex_k19_a4_js/limits/11558");
+    
+        $("#limits_11559").load("/c/matex_k19_a4_js/limits/11559");
+    
+        $("#limits_12120").load("/c/matex_k19_a4_js/limits/12120");
+    
+        $("#limits_12119").load("/c/matex_k19_a4_js/limits/12119");
+    
+        $("#limits_12118").load("/c/matex_k19_a4_js/limits/12118");
+    
+        $("#limits_12234").load("/c/matex_k19_a4_js/limits/12234");
+    
+        $("#limits_12233").load("/c/matex_k19_a4_js/limits/12233");
+    
+        $("#limits_12232").load("/c/matex_k19_a4_js/limits/12232");
+    
+        $("#limits_12235").load("/c/matex_k19_a4_js/limits/12235");
+    
+        $("#limits_12386").load("/c/matex_k19_a4_js/limits/12386");
+    
+        $("#limits_12387").load("/c/matex_k19_a4_js/limits/12387");
+    
+        $("#limits_12428").load("/c/matex_k19_a4_js/limits/12428");
+    
+        $("#limits_12825").load("/c/matex_k19_a4_js/limits/12825");
+    
+        $("#limits_12824").load("/c/matex_k19_a4_js/limits/12824");
+    
+        $("#limits_12990").load("/c/matex_k19_a4_js/limits/12990");
+    
+        $("#limits_12989").load("/c/matex_k19_a4_js/limits/12989");
+    
+        $("#limits_12988").load("/c/matex_k19_a4_js/limits/12988");
+    
+        $("#limits_12992").load("/c/matex_k19_a4_js/limits/12992");
+    
+        $("#limits_12995").load("/c/matex_k19_a4_js/limits/12995");
+    
+        $("#limits_13143").load("/c/matex_k19_a4_js/limits/13143");
+    
+        $("#limits_13144").load("/c/matex_k19_a4_js/limits/13144");
+    
+        $("#limits_13270").load("/c/matex_k19_a4_js/limits/13270");
+    
+        $("#limits_13269").load("/c/matex_k19_a4_js/limits/13269");
+    
+        $("#limits_13268").load("/c/matex_k19_a4_js/limits/13268");
+    
+        $("#limits_13274").load("/c/matex_k19_a4_js/limits/13274");
+    
+        $("#limits_13267").load("/c/matex_k19_a4_js/limits/13267");
+    
+        $("#limits_13346").load("/c/matex_k19_a4_js/limits/13346");
+    
+        $("#limits_13495").load("/c/matex_k19_a4_js/limits/13495");
+    
+        $("#limits_13494").load("/c/matex_k19_a4_js/limits/13494");
+    
+        $("#limits_13499").load("/c/matex_k19_a4_js/limits/13499");
+    
+        $("#limits_13498").load("/c/matex_k19_a4_js/limits/13498");
+    
+        $("#limits_13496").load("/c/matex_k19_a4_js/limits/13496");
+    
+        $("#limits_13497").load("/c/matex_k19_a4_js/limits/13497");
+    
+        $("#limits_13665").load("/c/matex_k19_a4_js/limits/13665");
+    
+        $("#limits_13663").load("/c/matex_k19_a4_js/limits/13663");
+    
+        $("#limits_13784").load("/c/matex_k19_a4_js/limits/13784");
+    
+        $("#limits_13785").load("/c/matex_k19_a4_js/limits/13785");
+    
+        $("#limits_13737").load("/c/matex_k19_a4_js/limits/13737");
+    
+        $("#limits_13738").load("/c/matex_k19_a4_js/limits/13738");
+    
+        $("#limits_13852").load("/c/matex_k19_a4_js/limits/13852");
+    
+        $("#limits_13851").load("/c/matex_k19_a4_js/limits/13851");
+    
+        $("#limits_13850").load("/c/matex_k19_a4_js/limits/13850");
+    
+        $("#limits_13849").load("/c/matex_k19_a4_js/limits/13849");
+    
+});
+</script>
+
+    </body>
+</html>
